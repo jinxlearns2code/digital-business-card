@@ -13,7 +13,7 @@ function App() {
       <Image />
 			<Header />
       <Body />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
