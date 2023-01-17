@@ -1,0 +1,140 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #23252C;
+  font-family: 'Inter';
+}
+
+.App {
+  width: 320px;
+  height: 780px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+}
+
+.profile-photo {
+  width: 320px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.name {
+  margin: 0;
+  padding: 21px 69px 0 69px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;;
+}
+
+.title {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+
+.website {
+font-size: 10.24px;
+line-height: 150%;
+text-align: center;
+color: #F5F5F5;
+}
+
+.buttons {
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  height: 34px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-size: 14px;
+  
+}
+
+a:hover {
+  transform: scale(0.98);
+	box-shadow: 0 1.8px 0 0.8px #dadadd;
+}
+
+.email-address {
+  background-color: #FFFFFF;
+  color: #374151;
+  margin-right: 8.5px;
+  border: 1px solid #D1D5DB;
+}
+
+.email-address:hover {
+  color: #374151;
+}
+
+.linkedin-profile {
+  background-color: #5093E2;
+  color: #FFFFFF;
+  margin-left: 8.5px;
+}
+
+.linkedin-profile:hover {
+  color: #FFFFFF;
+}
+
+.mail-icon {
+  width: 13px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.linkedin-icon {
+  width: 13px;
+  height: 13px;
+  margin-right: 10px;
+}
+
+main {
+  margin: 33px auto 0px auto;
+  width: 247px;
+}
+
+.body-title {
+  margin: 0;
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.body-description {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+
+.interests {
+  margin-top: 27px;
+}
+
+.footer {
+  display: flex;
+  width: 320px;
+  height: 64px;
+  background-color: white;
+}
