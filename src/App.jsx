@@ -6,8 +6,6 @@ import Body from '../components/Body.jsx'
 import Footer from '../components/Footer.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <Image />
